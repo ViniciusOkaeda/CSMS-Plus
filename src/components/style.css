@@ -1,0 +1,80 @@
+.move {
+    transition: transform 150ms;
+  }
+  
+  .move:hover {
+    transform: translateY(-6px);
+  }
+
+
+  .raise {
+    width: 100%;
+    max-width: 480px;
+    height: 60px;
+    transition: 0.25s;
+    border-radius: 10px;
+    border-style: none;
+    background-image: url(../assets/backgroundButton.png);
+    background-size: cover;
+  }
+
+  .raise:hover,
+  .raise:focus {
+
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    box-shadow: inset 18em 0 12px 30px rgba(0, 0, 0, 0.7);
+    transform: translateY(-0.35em);
+    cursor: pointer;
+  }
+
+  .raise2 {
+    width: 100%;
+    max-width: 580px;
+    height: 60px;
+    margin: auto;
+    transition: 0.25s;
+    border-radius: 10px;
+    border-style: none;
+    background-image: url(../assets/backgroundButtonGray2.png);
+    background-size: cover;
+  }
+
+  .raise2:hover,
+  .raise2:focus {
+
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    box-shadow: inset 18em 0 12px 30px rgba(251,207,0, 0.6);
+    transform: translateY(-0.35em);
+    cursor: pointer;
+  }
+
+
+  .inputSearch:hover,
+  .inputSearch:focus {
+    box-shadow: 0px 0px 25px rgba(220, 220, 220, 1)
+  }
+  .inputSearch2:hover,
+  .inputSearch2:focus {
+    box-shadow: 0px 0px 25px rgba(220, 220, 220, 1)
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    }
+
+
+    .click {
+      border: none;
+      border-style: none;
+      background-color: transparent;
+    }
+
+    .click:hover {  
+      color: #fff;
+      transition: 0.25s;
+      transform: scale(1.2);
+    
+    }
+
+  

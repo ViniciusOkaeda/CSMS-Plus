@@ -1,0 +1,94 @@
+.boda {
+    padding: 0;
+    margin: 0;
+    background: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .switch {
+    width: 70px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .switch.on {
+    background-color: #22cc88;
+    justify-content: flex-end;
+  }
+  
+  .switch.off {
+    background-color: #dddddd;
+    justify-content: flex-start;
+  }
+  
+  .switch div {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 200px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.02);
+  }
+
+.banner {
+  width: 100%;
+  height: 100%; 
+  overflow: hidden; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.banner video {
+ position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.banner .content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+
+.geometric {
+  clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  }
+
